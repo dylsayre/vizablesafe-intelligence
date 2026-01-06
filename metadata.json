@@ -1,0 +1,97 @@
+{
+  "repository": "vizablesafe-intelligence",
+  "description": "Threat intelligence repository for VizableSafe browser extension",
+  "latestVersions": {
+    "patterns": "2024-01-06-001",
+    "whitelist": "2024-01-06-002",
+    "blacklist": "2024-01-06-003"
+  },
+  "lastUpdated": {
+    "patterns": 1704556800000,
+    "whitelist": 1704556800000,
+    "blacklist": 1704556800000
+  },
+  "minExtensionVersion": "2.0.0",
+  "updateIntervals": {
+    "patterns": {
+      "milliseconds": 14400000,
+      "description": "4 hours - Threat patterns change relatively slowly"
+    },
+    "whitelist": {
+      "milliseconds": 86400000,
+      "description": "24 hours - Trusted domains rarely change"
+    },
+    "blacklist": {
+      "milliseconds": 3600000,
+      "description": "1 hour - New phishing sites emerge constantly, need fast updates"
+    }
+  },
+  "statistics": {
+    "totalPatterns": 10,
+    "totalWhitelistedDomains": 50,
+    "totalBlacklistedDomains": 6,
+    "totalBlacklistPatterns": 12,
+    "categories": {
+      "malware": 3,
+      "phishing": 6,
+      "scam": 2
+    },
+    "severityBreakdown": {
+      "critical": 3,
+      "high": 6,
+      "medium": 2,
+      "low": 0
+    }
+  },
+  "changelog": [
+    {
+      "version": "2024-01-06-001",
+      "date": "2024-01-06",
+      "type": "patterns",
+      "changes": [
+        "Initial pattern set created",
+        "Added ClickFix malware detection patterns (3 variants)",
+        "Added credential theft phishing patterns (3 types)",
+        "Added tech support scam patterns",
+        "Added cryptocurrency scam patterns"
+      ]
+    },
+    {
+      "version": "2024-01-06-002",
+      "date": "2024-01-06",
+      "type": "whitelist",
+      "changes": [
+        "Initial whitelist created",
+        "Added major search engines (Google, Bing)",
+        "Added major social media platforms",
+        "Added development platforms (GitHub, StackOverflow)",
+        "Added cloud providers (AWS, Azure, Cloudflare)",
+        "Added productivity tools (Microsoft 365, Office)"
+      ]
+    },
+    {
+      "version": "2024-01-06-003",
+      "date": "2024-01-06",
+      "type": "blacklist",
+      "changes": [
+        "Initial blacklist created",
+        "Added known phishing domains (6 examples)",
+        "Added blacklist patterns for common brand impersonation",
+        "Blocked free TLDs commonly used for phishing (.tk, .ml, .ga, .cf)"
+      ]
+    }
+  ],
+  "endpoints": {
+    "patterns": "https://raw.githubusercontent.com/YOUR-USERNAME/vizablesafe-intelligence/main/patterns.json",
+    "whitelist": "https://raw.githubusercontent.com/YOUR-USERNAME/vizablesafe-intelligence/main/whitelist.json",
+    "blacklist": "https://raw.githubusercontent.com/YOUR-USERNAME/vizablesafe-intelligence/main/blacklist.json",
+    "metadata": "https://raw.githubusercontent.com/YOUR-USERNAME/vizablesafe-intelligence/main/metadata.json"
+  },
+  "notes": [
+    "Replace YOUR-USERNAME with your actual GitHub username",
+    "All timestamps are in milliseconds since Unix epoch",
+    "Version format: YYYY-MM-DD-NNN (date + sequence number)",
+    "Update intervals are suggestions - extensions can configure their own",
+    "Blacklist should be updated most frequently (hourly) for rapid threat response"
+  ]
+}

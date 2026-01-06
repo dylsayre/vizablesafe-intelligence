@@ -1,0 +1,44 @@
+{
+  "version": "2024-01-06-003",
+  "lastUpdate": 1704556800000,
+  "description": "Known malicious domains that should be blocked immediately",
+  "domains": [
+    "paypa1-login.com",
+    "paypal-verify-account.com",
+    "microsoftt-support.com",
+    "apple-id-locked.com",
+    "secure-bankofamerica.com",
+    "amazon-prize-winner.com"
+  ],
+  "patterns": [
+    ".*-paypal-verify\\.com$",
+    ".*-paypal-login\\.com$",
+    ".*-account-suspended\\.com$",
+    ".*-microsoft-support\\.com$",
+    ".*-apple-support\\.com$",
+    ".*-verify-identity\\.com$",
+    ".*-secure-login\\.tk$",
+    ".*-banking\\.tk$",
+    ".*\\.tk$",
+    ".*\\.ml$",
+    ".*\\.ga$",
+    ".*\\.cf$"
+  ],
+  "ipAddresses": [],
+  "temporary": [],
+  "metadata": {
+    "totalDomains": 6,
+    "totalPatterns": 12,
+    "totalIpAddresses": 0,
+    "lastPhishingCampaign": "2024-01-05",
+    "sources": [
+      "Internal Reports",
+      "Manual Analysis"
+    ],
+    "notes": [
+      "Free TLDs (.tk, .ml, .ga, .cf) are commonly used for phishing",
+      "Patterns target common brand impersonation attempts",
+      "Update this list frequently as new phishing domains emerge"
+    ]
+  }
+}
