@@ -55,8 +55,7 @@
     "w3.org",
     "*.w3.org",
     "chromium.org",
-    "*.chromium.org",
-    "proofpoint.com"
+    "*.chromium.org"
   ],
   "paths": [
     {
