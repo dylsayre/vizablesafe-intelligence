@@ -82,13 +82,12 @@
     }
   ],
   "endpoints": {
-    "patterns": "https://raw.githubusercontent.com/YOUR-USERNAME/vizablesafe-intelligence/main/patterns.json",
-    "whitelist": "https://raw.githubusercontent.com/YOUR-USERNAME/vizablesafe-intelligence/main/whitelist.json",
-    "blacklist": "https://raw.githubusercontent.com/YOUR-USERNAME/vizablesafe-intelligence/main/blacklist.json",
-    "metadata": "https://raw.githubusercontent.com/YOUR-USERNAME/vizablesafe-intelligence/main/metadata.json"
+    "patterns": "https://raw.githubusercontent.com/dylsayre/vizablesafe-intelligence/main/patterns.json",
+    "whitelist": "https://raw.githubusercontent.com/dylsayre/vizablesafe-intelligence/main/whitelist.json",
+    "blacklist": "https://raw.githubusercontent.com/dylsayre/vizablesafe-intelligence/main/blacklist.json",
+    "metadata": "https://raw.githubusercontent.com/dylsayre/vizablesafe-intelligence/main/metadata.json"
   },
   "notes": [
-    "Replace YOUR-USERNAME with your actual GitHub username",
     "All timestamps are in milliseconds since Unix epoch",
     "Version format: YYYY-MM-DD-NNN (date + sequence number)",
     "Update intervals are suggestions - extensions can configure their own",
