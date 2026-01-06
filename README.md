@@ -58,7 +58,7 @@ Repository metadata including version tracking, statistics, and changelog.
 The extension fetches intelligence from GitHub raw URLs:
 
 ```javascript
-const BASE_URL = 'https://raw.githubusercontent.com/YOUR-USERNAME/vizablesafe-intelligence/main';
+const BASE_URL = 'https://raw.githubusercontent.com/dylsayre/vizablesafe-intelligence/main';
 
 // Fetch patterns
 const patterns = await fetch(`${BASE_URL}/patterns.json`).then(r => r.json());

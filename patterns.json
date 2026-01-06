@@ -19,7 +19,7 @@
       "id": "clickfix-powershell-v2",
       "category": "malware",
       "severity": "critical",
-      "regex": "(?i)(press|click|hit)\\s+(win(dows)?\\s?\\+\\s?[xr]|start).*powershell",
+      "regex": "(press|click|hit)\\s+(win(dows)?\\s?\\+\\s?[xr]|start).*powershell",
       "description": "ClickFix variant - generic PowerShell execution instructions",
       "enabled": true,
       "added": "2024-01-06"
@@ -28,7 +28,7 @@
       "id": "clickfix-run-command",
       "category": "malware",
       "severity": "critical",
-      "regex": "(?i)(press|hit)\\s+(win(dows)?\\s?\\+\\s?r).*paste.*execute",
+      "regex": "(press|hit)\\s+(win(dows)?\\s?\\+\\s?r).*paste.*execute",
       "description": "ClickFix - Run dialog exploitation",
       "enabled": true,
       "added": "2024-01-06"
@@ -37,7 +37,7 @@
       "id": "credential-theft-urgent",
       "category": "phishing",
       "severity": "high",
-      "regex": "(?i)(your\\s+(account|password)|account).{0,50}(suspended|expired|locked|compromised|unusual\\s+activity|verify\\s+now)",
+      "regex": "(your\\s+(account|password)|account).{0,50}(suspended|expired|locked|compromised|unusual\\s+activity|verify\\s+now)",
       "description": "Urgency-based credential phishing tactics",
       "enabled": true,
       "added": "2024-01-06"
@@ -46,7 +46,7 @@
       "id": "credential-theft-action-required",
       "category": "phishing",
       "severity": "high",
-      "regex": "(?i)(immediate|urgent)\\s+action\\s+required.{0,50}(verify|confirm|update).{0,50}(account|password|payment)",
+      "regex": "(immediate|urgent)\\s+action\\s+required.{0,50}(verify|confirm|update).{0,50}(account|password|payment)",
       "description": "Action-required phishing social engineering",
       "enabled": true,
       "added": "2024-01-06"
@@ -55,7 +55,7 @@
       "id": "fake-security-alert",
       "category": "phishing",
       "severity": "high",
-      "regex": "(?i)(security\\s+alert|security\\s+warning).{0,50}(click|verify|update).{0,50}(now|immediately|within\\s+24)",
+      "regex": "(security\\s+alert|security\\s+warning).{0,50}(click|verify|update).{0,50}(now|immediately|within\\s+24)",
       "description": "Fake security alerts to steal credentials",
       "enabled": true,
       "added": "2024-01-06"
@@ -64,7 +64,7 @@
       "id": "prize-scam",
       "category": "phishing",
       "severity": "medium",
-      "regex": "(?i)(congratulations|you\\s+(won|have\\s+been\\s+selected)).{0,50}(prize|reward|gift\\s+card|\\$\\d+)",
+      "regex": "(congratulations|you\\s+(won|have\\s+been\\s+selected)).{0,50}(prize|reward|gift\\s+card|\\$\\d+)",
       "description": "Prize/lottery scam patterns",
       "enabled": true,
       "added": "2024-01-06"
@@ -73,7 +73,7 @@
       "id": "tech-support-scam",
       "category": "scam",
       "severity": "high",
-      "regex": "(?i)(call\\s+immediately|microsoft\\s+support|apple\\s+support).{0,50}(virus|trojan|infected|blocked).{0,50}(1-?8(00|66|77|88))",
+      "regex": "(call\\s+immediately|microsoft\\s+support|apple\\s+support).{0,50}(virus|trojan|infected|blocked).{0,50}(1-?8(00|66|77|88))",
       "description": "Tech support scam with fake phone numbers",
       "enabled": true,
       "added": "2024-01-06"
@@ -82,7 +82,7 @@
       "id": "cryptocurrency-doubler",
       "category": "scam",
       "severity": "medium",
-      "regex": "(?i)(send|deposit).{0,30}(bitcoin|btc|ethereum|eth|crypto).{0,50}(double|multiply|return|guarantee)",
+      "regex": "(send|deposit).{0,30}(bitcoin|btc|ethereum|eth|crypto).{0,50}(double|multiply|return|guarantee)",
       "description": "Cryptocurrency doubling scams",
       "enabled": true,
       "added": "2024-01-06"
@@ -91,7 +91,7 @@
       "id": "fake-invoice-payment",
       "category": "phishing",
       "severity": "high",
-      "regex": "(?i)(invoice|payment).{0,50}(overdue|past\\s+due|failed).{0,50}(click|download|verify)",
+      "regex": "(invoice|payment).{0,50}(overdue|past\\s+due|failed).{0,50}(click|download|verify)",
       "description": "Fake invoice/payment phishing",
       "enabled": true,
       "added": "2024-01-06"
