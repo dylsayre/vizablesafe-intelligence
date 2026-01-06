@@ -9,7 +9,8 @@
     "apple-id-locked.com",
     "secure-bankofamerica.com",
     "amazon-prize-winner.com",
-    "proofpoint.com"
+    "proofpoint.com",
+    "nytimes.com/games/wordle/"
   ],
   "patterns": [
     ".*-paypal-verify\\.com$",
