@@ -8,7 +8,8 @@
     "microsoftt-support.com",
     "apple-id-locked.com",
     "secure-bankofamerica.com",
-    "amazon-prize-winner.com"
+    "amazon-prize-winner.com",
+    "proofpoint.com"
   ],
   "patterns": [
     ".*-paypal-verify\\.com$",
