@@ -56,7 +56,7 @@
     "*.w3.org",
     "chromium.org",
     "*.chromium.org",
-    "medium.com"
+    "*.medium.com"
   ],
   "paths": [
     {
