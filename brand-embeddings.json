@@ -1,5 +1,263 @@
 {
   "version": "1.0.0",
   "last_updated": "2026-01-10",
-  "brands": {}
+  "brands": {
+    "paypal": {
+      "domain": "www.paypal.com",
+      "visual_features": [
+        1.0,
+        0.0,
+        1.0,
+        0.9998721139563024,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "logo_hash": "fffffffffff81fff",
+      "color_palette": [
+        "#fefefe",
+        "#7c7c7c",
+        "#d3d7dd",
+        "#f5f5f5",
+        "#b5b5b5"
+      ],
+      "logo_position": "top-left",
+      "screenshot": "paypal.png"
+    },
+    "amazon": {
+      "domain": "www.amazon.com",
+      "visual_features": [
+        1.0,
+        0.0,
+        1.0,
+        0.9993411283422986,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "logo_hash": "fff43fffffec03ff",
+      "color_palette": [
+        "#fefefe",
+        "#b2b1b0",
+        "#f6dabe",
+        "#7b7b7c",
+        "#cccecf"
+      ],
+      "logo_position": "top-left",
+      "screenshot": "amazon.png"
+    },
+    "microsoft": {
+      "domain": "login.microsoftonline.com",
+      "visual_features": [
+        1.0,
+        0.0,
+        1.0,
+        0.9959114909703531,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "logo_hash": "0000000000000000",
+      "color_palette": [
+        "#f7f4f7",
+        "#136cba",
+        "#edeef5",
+        "#b1bfc4",
+        "#fefefe"
+      ],
+      "logo_position": "top-left",
+      "screenshot": "microsoft.png",
+      "favicon_url": "https://aadcdn.msftauth.net/shared/1.0/content/images/favicon_a_eupayfgghqiai7k9sol6lg2.ico"
+    },
+    "google": {
+      "domain": "accounts.google.com",
+      "visual_features": [
+        0.0,
+        0.0,
+        1.0,
+        0.9994585281811469,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "logo_hash": "ffffffffffffffff",
+      "color_palette": [
+        "#fefefe",
+        "#c9ddf9",
+        "#3784eb",
+        "#d1d0d0",
+        "#edf0f5"
+      ],
+      "logo_position": "top-left",
+      "screenshot": "google.png"
+    },
+    "facebook": {
+      "domain": "www.facebook.com",
+      "visual_features": [
+        1.0,
+        0.0,
+        1.0,
+        0.9966647569160255,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "logo_hash": "000000020003c002",
+      "color_palette": [
+        "#1374f1",
+        "#f1f3f5",
+        "#597952",
+        "#fefefe",
+        "#86b7e6"
+      ],
+      "logo_position": "top-left",
+      "screenshot": "facebook.png",
+      "favicon_url": "https://static.xx.fbcdn.net/rsrc.php/yx/r/e9sqr8WnkCf.ico"
+    },
+    "apple": {
+      "domain": "appleid.apple.com",
+      "visual_features": [
+        1.0,
+        0.0,
+        1.0,
+        0.9940393126270882,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "logo_hash": "fe0000fefe7ff3fe",
+      "color_palette": [
+        "#fefefe",
+        "#3c3c3d",
+        "#dee0e6",
+        "#979797",
+        "#9ac6f3"
+      ],
+      "logo_position": "top-left",
+      "screenshot": "apple.png",
+      "favicon_url": "https://appleid.cdn-apple.com/static/bin/cb3460663665/images/favicon.ico"
+    },
+    "netflix": {
+      "domain": "www.netflix.com",
+      "visual_features": [
+        1.0,
+        0.0,
+        1.0,
+        0.8387921393193801,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "logo_hash": "ff0c6718ff186439",
+      "color_palette": [
+        "#505354",
+        "#070606",
+        "#1b1514",
+        "#37342c",
+        "#db0e18"
+      ],
+      "logo_position": "top-left",
+      "screenshot": "netflix.png",
+      "favicon_url": "https://assets.nflxext.com/us/ffe/siteui/common/icons/nficon2023.ico"
+    },
+    "linkedin": {
+      "domain": "www.linkedin.com",
+      "visual_features": [
+        1.0,
+        0.0,
+        1.0,
+        0.9979836106282592,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "logo_hash": "ffffffff1fffffff",
+      "color_palette": [
+        "#f0f1f3",
+        "#1269c1",
+        "#6fa0cf",
+        "#fefefe",
+        "#cfd5db"
+      ],
+      "logo_position": "top-left",
+      "screenshot": "linkedin.png",
+      "favicon_url": "https://static.licdn.com/sc/h/9lb1g1kp916tat669q9r5g2kz"
+    },
+    "github": {
+      "domain": "github.com",
+      "visual_features": [
+        1.0,
+        0.0,
+        1.0,
+        0.9945902082769813,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "logo_hash": "0000000000018000",
+      "color_palette": [
+        "#238636",
+        "#0d1117",
+        "#2e3847",
+        "#161d26",
+        "#626d6e"
+      ],
+      "logo_position": "top-left",
+      "screenshot": "github.png",
+      "favicon_url": "https://github.com/fluidicon.png"
+    },
+    "dropbox": {
+      "domain": "www.dropbox.com",
+      "visual_features": [
+        1.0,
+        0.0,
+        1.0,
+        0.9814101343333871,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "logo_hash": "ffffffffffffffff",
+      "color_palette": [
+        "#fefefe",
+        "#050505",
+        "#1168fd",
+        "#414142",
+        "#979ba1"
+      ],
+      "logo_position": "top-left",
+      "screenshot": "dropbox.png",
+      "favicon_url": "https://cfl.dropboxstatic.com/static/metaserver/static/images/favicon.ico"
+    }
+  }
 }
