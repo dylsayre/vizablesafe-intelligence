@@ -19,8 +19,8 @@
       "id": "clickfix-powershell-v3",
       "category": "malware",
       "severity": "critical",
-      "regex": "(press|click|hit)\\s+(win(dows)?\\s?\\+\\s?[xr]|start).*powershell",
-      "description": "ClickFix variant - generic PowerShell execution instructions",
+      "regex": "(press|click|hit)\\s+(win(dows)?\\s?\\+\\s?[xr]|start).{0,200}(powershell|pwsh).{0,50}(administrator|admin|paste|enter)",
+      "description": "ClickFix variant - PowerShell execution with admin/paste instructions",
       "enabled": true,
       "added": "2024-01-06"
     },
@@ -37,8 +37,8 @@
       "id": "clickfix-keyboard-sequence",
       "category": "malware",
       "severity": "critical",
-      "regex": "(press|hold).{0,30}(win(dows)?\\s?(key)?\\s?[⊞+]\\s?[+]?\\s?r).{0,200}(ctrl\\s?[+]\\s?v).{0,100}(enter|finish)",
-      "description": "ClickFix - Keyboard sequence instructions (Win+R, Ctrl+V, Enter)",
+      "regex": "(verif|captcha|fix|check|error).{0,100}(press|hold).{0,30}(win(dows)?\\s?(key)?\\s?[⊞+]\\s?[+]?\\s?r).{0,150}(ctrl\\s?[+]\\s?v|paste).{0,80}(enter|finish)",
+      "description": "ClickFix - Fake verification/error with keyboard sequence (Win+R, Ctrl+V, Enter)",
       "enabled": true,
       "added": "2024-01-13"
     },
