@@ -1,6 +1,6 @@
 {
-  "version": "2024-01-06-001",
-  "lastUpdate": 1704556800000,
+  "version": "2024-01-13-001",
+  "lastUpdate": 1736812800000,
   "minExtensionVersion": "2.0.0",
   "patterns": [
     {
@@ -16,7 +16,7 @@
       ]
     },
     {
-      "id": "clickfix-powershell-v2",
+      "id": "clickfix-powershell-v3",
       "category": "malware",
       "severity": "critical",
       "regex": "(press|click|hit)\\s+(win(dows)?\\s?\\+\\s?[xr]|start).*powershell",
@@ -34,31 +34,13 @@
       "added": "2024-01-06"
     },
     {
-      "id": "credential-theft-urgent",
-      "category": "phishing",
-      "severity": "high",
-      "regex": "(your\\s+(account|password)|account).{0,50}(suspended|expired|locked|compromised|unusual\\s+activity|verify\\s+now)",
-      "description": "Urgency-based credential phishing tactics",
+      "id": "clickfix-keyboard-sequence",
+      "category": "malware",
+      "severity": "critical",
+      "regex": "(press|hold).{0,30}(win(dows)?\\s?(key)?\\s?[⊞+]\\s?[+]?\\s?r).{0,200}(ctrl\\s?[+]\\s?v).{0,100}(enter|finish)",
+      "description": "ClickFix - Keyboard sequence instructions (Win+R, Ctrl+V, Enter)",
       "enabled": true,
-      "added": "2024-01-06"
-    },
-    {
-      "id": "credential-theft-action-required",
-      "category": "phishing",
-      "severity": "high",
-      "regex": "(immediate|urgent)\\s+action\\s+required.{0,50}(verify|confirm|update).{0,50}(account|password|payment)",
-      "description": "Action-required phishing social engineering",
-      "enabled": true,
-      "added": "2024-01-06"
-    },
-    {
-      "id": "fake-security-alert",
-      "category": "phishing",
-      "severity": "high",
-      "regex": "(security\\s+alert|security\\s+warning).{0,50}(click|verify|update).{0,50}(now|immediately|within\\s+24)",
-      "description": "Fake security alerts to steal credentials",
-      "enabled": true,
-      "added": "2024-01-06"
+      "added": "2024-01-13"
     },
     {
       "id": "prize-scam",
@@ -86,27 +68,18 @@
       "description": "Cryptocurrency doubling scams",
       "enabled": true,
       "added": "2024-01-06"
-    },
-    {
-      "id": "fake-invoice-payment",
-      "category": "phishing",
-      "severity": "high",
-      "regex": "(invoice|payment).{0,50}(overdue|past\\s+due|failed).{0,50}(click|download|verify)",
-      "description": "Fake invoice/payment phishing",
-      "enabled": true,
-      "added": "2024-01-06"
     }
   ],
   "metadata": {
-    "totalPatterns": 10,
+    "totalPatterns": 7,
     "categories": {
-      "malware": 3,
-      "phishing": 6,
+      "malware": 4,
+      "phishing": 1,
       "scam": 2
     },
     "severityBreakdown": {
-      "critical": 3,
-      "high": 6,
+      "critical": 4,
+      "high": 1,
       "medium": 2
     }
   }
